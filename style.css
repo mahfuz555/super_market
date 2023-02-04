@@ -1,0 +1,360 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Section 1 */
+.navbar1 {
+    background-color: #333333;
+    display: grid;
+    grid-template-columns: 40% 50% 10%;
+    color: white;
+    height: 7vh;
+    align-items: center;
+}
+
+.navbar1 .sale {
+    text-transform: uppercase;
+    margin: 0 50px;
+    font-size: 14px;
+}
+
+.navbar1 .account a {
+    color: white;
+    text-decoration: none;
+    padding: 0 15px;
+}
+
+.navbar2 {
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+    color: black;
+    height: 10vh;
+    align-items: center;
+}
+
+.navbar2 .order-online {
+    margin-left: 50px;
+
+}
+
+.navbar2 .logo {
+    color: orange;
+    font-size: 32px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin-left: 150px;
+}
+
+.search {
+    margin-left: 50px;
+}
+
+input {
+    padding: 10px;
+}
+
+.search button {
+    border: none;
+}
+
+/* Section 3 */
+.navbar3 {
+    background-color: orange;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    height: 7vh;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #252424;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: rgb(252, 252, 252);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #323232
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.navbar3 a:not(.dropdown-content a) {
+    color: white;
+    text-decoration: none;
+    padding: 0 20px;
+}
+
+.navbar3 a:not(.dropdown-content a):hover {
+    color: black;
+}
+
+.section4 {
+    background: linear-gradient(to right, rgba(37, 37, 37, 0.8), rgba(75, 75, 75, 0.8)), url("img/buy-rice.jpg");
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    text-align: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    line-height: 1.6;
+    font-weight: 600;
+}
+
+.buy-rice{
+    font-weight: 400;
+}
+
+/* Section 5 */
+.selling-offer {
+    font-size: 35px;
+    text-align: center;
+    font-weight: bold;
+    padding: 50px 0px;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.section5 {
+    background-color: white;
+
+    /* background:linear-gradient(to right, orange, rgb(241, 172, 44)) */
+}
+
+.section5 .part5 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: black;
+
+}
+
+.section5 .part5 {
+    display: grid;
+    align-items: center;
+}
+
+.section5 .image5 {
+    display: grid;
+    justify-content: center;
+}
+
+.section5 .part5 h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 20px;
+}
+
+.part5 p {
+    margin-bottom: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+
+.section5 .image5 img {
+    border-radius: 10px;
+}
+
+
+.part5 button {
+    background-color: rgb(18, 113, 148);
+    padding: 16px 20px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+}
+
+.part5 button:hover {
+    background-color: rgb(15, 97, 70);
+}
+
+.section6 {
+    margin-top: 30px;
+    display: grid;
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: orange;
+    height: 15vh;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+}
+
+.section7 {
+    background-color: orange;
+    display: grid;
+    justify-content: center;
+}
+
+.section7 .pre-section7 {
+    width: 80%;
+}
+
+.pre-section7 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 50px;
+    text-align: center;
+}
+
+.pre-section7 .part7 {
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0px 3px 5px 3px rgb(138, 138, 138);
+
+}
+
+.pre-section7 .part7 img {
+    border-radius: 10px;
+}
+
+.pre-section7 .part7 .item-name {
+    font-size: 20px;
+}
+
+.pre-section7 .part7 .item-price {
+    color: orange;
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+.space {
+    background-color: orange;
+    height: 10vh;
+}
+
+.section8 {
+    background: url("img/store1.png");
+    height: 70vh;
+    background-size: cover;
+}
+
+
+.section8 {
+    display: grid;
+    align-content: center;
+}
+
+.section8 .text8 {
+    margin-left: 20%;
+}
+
+.section8 .text8 p {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+}
+
+.section8 .text8 button {
+    background-color: orange;
+    padding: 16px 22px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.section8 .text8 button:hover {
+    background-color: white;
+    color: orange;
+}
+
+.section9 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    height: 20vh;
+    align-items: center;
+    margin: 50px;
+}
+
+.section9 .col9 {
+    display: flex;
+    flex-direction: row;
+    margin: 0 50px;
+}
+
+.section9 .col9 i {
+    font-size: 30px;
+    margin-right: 15px;
+}
+
+.footer {
+    background-color: rgb(61, 59, 59);
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    height: 35vh;
+    color: white;
+    padding: 50px 200px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.footer a:hover{
+    color: orange;
+}
+
+.footer .contact-us p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.footer .footer-p {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.footer .follow-us button {
+    background-color: white;
+    padding: 15px;
+    color: black;
+    border-radius: 10px;
+}
+
+.footer .follow-us button:hover {
+    background-color: orange;
+    color: white;
+}
+
+.subfooter {
+    text-align: center;
+    background-color: rgb(53, 53, 53);
+    color: white;
+    height: 7vh;
+    display: grid;
+    align-items: center;
+}
